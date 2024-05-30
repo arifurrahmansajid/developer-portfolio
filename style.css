@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Serif:opsz@8..144&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+#nav-section{
+    width: 100%;
+    background-color: hsl(41, 100%, 97%);
+}
+.h-img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-img img{
+    width: 80px;
+    height: 600px;
+}
+.h-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-section-body{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-section{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu{
+    display: none;
+}
+.logo{
+    margin-left: 15px;
+    font-size: 40px;
+}
+.logo span{
+    color: rgb(255, 81, 0);
+}
+.nav{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav li{
+    padding: 20px;
+    
+}
+.nav li .nav-item{
+    color: rgb(42, 42, 42);
+    font-weight: 300;
+    
+}
+.hire-me{
+    color: #ffffff;
+    background-color: rgb(255, 81, 0);
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.header-body{
+    font-family: 'Roboto Serif', serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-text h2{
+    color: rgb(71, 71, 71);
+    font-size: 48px;
+}
+.header-text h1{
+    font-size: 56px;
+    font-weight:bolder;
+}
+.header-text p{
+    color: #757575;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.download-cv{
+    padding: 20px;
+    background-color: rgb(255, 94, 0);
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-me{
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(255, 94, 0);
+    border-radius: 8px;
+    border: 2px solid rgb(255, 94, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-image{
+    padding-top: 100px;
+    width: fit-content;
+    background: url("images/header_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image img{
+    max-height: 500px;
+    padding: 0 50px 0 200px;
+}
+/* ------------------about-section----------------- */
+#main{
+    width: 100%;
+}
+.about-section{
+    margin-top: 100px;
+    padding: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background: #fff8f1;
+}
+.about-section p{
+    font-family: 'Roboto serif', 'serif';
+    color: rgb(71, 71, 71);
+}
+.about-section div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about-section div section h4{
+    min-width: 200px;
+}
+/* -------------------what i do section-------------- */
+.what-i-do-section{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.what-i-do-section p{
+    padding: 0 100px 0 100px;
+    text-align: center;
+    font-family: 'Roboto serif', 'serif';
+}
+.learned-items{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+.learned-items div{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgb(225, 224, 224);
+}
+.icon{
+    width: fit-content;
+}
+.learned-items p{
+    text-align: left;
+    padding: 0;
+    color: #757575;
+}
+/* ------------------summary of my resume-------------- */
+.summary-of-resume{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.personal-informations{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #333333;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.title p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 40px;
+    font-family: 'Roboto serif', 'serif';
+}
+.title h4{
+    margin-top: 8px;
+    color: #525252;
+    font-family: 'Roboto serif', 'serif';
+}
+/* ---------------------footer--------------------- */
+#footer{
+    width: 100%;
+    background: #fff9ef;
+}
+.footer{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.footer p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto serif', 'serif';
+}
+.social-links a{
+    color: rgb(255, 94, 0);
+}
+.contact-form input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto serif', 'serif';
+    outline: none;
+    border: none;
+}
+.contact-form textarea{
+    font-family: 'Roboto serif', 'serif';
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+.contact-form input[type='submit']{
+    width: fit-content;
+    padding: 20px;
+    background-color: rgb(255, 94, 0);
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto serif', 'serif';
+}
+
